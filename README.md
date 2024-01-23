@@ -30,9 +30,13 @@ Make sure you have the following installed on your machine:
 The project follows an MVC (Model-View-Controller) architecture for a clean and organized codebase:
 
 controllers: Contains the API controllers for handling HTTP requests.
+
 models: Houses the data model responsible for fetching and processing data.
+
 routes: Defines the Express routes and connects them to the corresponding controllers.
+
 views: Placeholder for any future views (not used in this API-only project).
+
 index.js: Entry point for the Express application.
 
 ## Features
@@ -40,10 +44,15 @@ index.js: Entry point for the Express application.
 ### 1. API Endpoints
 
 GET /api/tables: Retrieve all valid tables from the DappLooker JSON data.
+
 GET /api/average-gas-price: Get the average gas price of transactions.
+
 GET /api/transactions-per-block: Get the number of transactions per block.
+
 PUT /api/transform-transactions: Transform the JSON structure and return recent 10 transactions.
+
 GET /api/block-details: Get details for each block, including timestamp, average gas price, and number of transactions.
+
 GET /api/block-details/:blockNumber: Get timestamp and number of transactions for a specific block.
 
 ### 2. MVC Structure
